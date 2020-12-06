@@ -1,5 +1,5 @@
 // Import orm.js into burger.js
-var orm = require("../../burgers/config/orm.js");
+var orm = require("../config/orm.js");
 
 var burger = {
     selectAll: function(cb) {
